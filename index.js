@@ -62,4 +62,5 @@ app.get('/api/v1/stopScheduleNotificaions', (req, res) => {
     }
 });
 
-app.listen(3030, ()=> console.log('listenning on port 3030'));
+let PORT = 3000;
+app.listen(PORT, ()=> console.log(`listenning on port ${3030}`));
